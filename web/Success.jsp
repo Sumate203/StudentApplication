@@ -18,11 +18,12 @@
      String Name  = request.getParameter("Name");
      String Gpa  = request.getParameter("GPA");
      %>
-        <h1>ID :  <%out.print(Id + "<br/>"); %>   </h1>
-        <h1>Name : <%out.print(Name + "<br/>"); %>  </h1>
-        <h1>GPA : <%out.print(Gpa + "<br/>"); %>  </h1>
-        <h1>Is added </h1>
-        <a href="index.html">Back to Add Student </a>
+        <h2>ID :  <%out.print(Id + "<br/>"); %>   <h2>
+        <h2>Name : <%out.print(Name + "<br/>"); %>  <h2>
+        <h2>GPA : <%out.print(Gpa + "<br/>"); %> <h2>
+        <h2>Is added <h2>
+        <h1>Student List </h1>
         <%@ include file = "result.jsp" %>
+        <a href="index.html">Back to Add Student </a>
     </body>
 </html>

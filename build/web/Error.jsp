@@ -8,7 +8,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>There is an existing student with this ID</h1>
+        <h2>There is an existing student with this ID</h2>
+         <h1>Student List </h1>
         <%@ include file = "result.jsp" %>
     </body>
 </html>
